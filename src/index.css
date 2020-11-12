@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  }
+
+nav{
+  background-color: transparent!important;
+  box-shadow: 1px 5px 20px #eceaea;
+  padding: 0px 0px !important;
+
+  box-sizing: border-box;
+
+}
+
+.nav-item{
+  padding-left: 15px;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.nav-item a{ 
+   color:rgb(61, 61, 61);
+   text-decoration: none!important;
+   font-weight: 700;
+   font-size: 16px;
+}
+.navbar-brand{
+  padding: 25px 20px!important;
+  margin: 0;
+
+}
+.bordr-l{
+  border-left: 2px solid #eceaea;
+
+}
+.navbar-nav{
+  padding: 25px 20px!important;
+  margin: 0;
+}
+.icons-div{
+  padding-right: 10px ;
+ 
+  border-right: 2px solid #eceaea;
+}
+.text-black{
+  color: #000!important;
+}
+.icon-item{
+  border-radius: 50%;
+text-align: center;
+padding: 0;
+  margin-left: 10px;
+  border:2px solid #eceaea;
+}
+.icon-item a{
+  font-size: 12px;
+  text-decoration: none;
+}
+.search-div{
+  padding-left: 25px;
+  font-size: 16px;
+}
+.contact-me{
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 20px;
+  background-color: rgba(14, 13, 13, 0.959);
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #eceaea;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
